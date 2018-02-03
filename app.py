@@ -23,11 +23,14 @@ def msg():
 
 @app.route('/sendmsg')
 def sendmsg():
-    to = request.args.get('to')
-    msg = request.args.get('msg')
-    token = request.args.get('token')
+    #to = request.args.get('to')
+    to = '8376966864'
+#    msg = request.args.get('msg')
+    msg = 'Hellow world!!!'
+  #  token = request.args.get('token')
+    token = 'jmdmatadi'
     if(str(token) == expected_token):
-        client = Client(login='917840860862', password='+AMsaZGDR6Ydzl8qeZWktsgU3SI=')
+        client = Client(login='8076284641', password='fTHUL2A4y0zfOfCDjWy8v6p8U1I=')
         res = client.send_message(to, msg)  
     
     else:
