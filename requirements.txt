@@ -7,7 +7,7 @@ idna==2.6
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
-protobuf==3.5.1
+protobuf==3.15.0
 pycrypto==2.6.1
 python-axolotl==0.1.39
 python-axolotl-curve25519==0.1
